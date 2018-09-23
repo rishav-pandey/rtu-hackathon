@@ -1,4 +1,57 @@
 {% extends "layout.html" %}
 {% block content %}
-  <h1>Hello World!</h1>
+    <section style="padding: 50px 0px; background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #C4E2F3;">
+      <div class="container">
+        <div class="card">
+          <div class="card-header">
+            <h1>Enter Details Of The House</h1>
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="building-type">Building Type</label>
+                <input type="building-type" class="form-control w-50" id="building-type" placeholder="1 BKH">
+              </div>
+              <div class="form-group">
+                <label for="parking">Parking:</label>
+                <input type="parking" class="form-control w-50" id="parking" placeholder="1 BKH">
+              </div>
+              <div class="form-group">
+                <label for="building">Gym</label>
+                <input type="building" class="form-control w-50" id="building" placeholder="1 BKH">
+              </div>
+              <div class="form-group">
+                <label for="lift">Lift</label>
+                <input type="lift" class="form-control w-50" id="lift" placeholder="1 BKH">
+              </div>
+              <div class="form-group">
+                <label for="swimming-pool">Swimming Pool</label>
+                <input type="swimming-pool" class="form-control w-50" id="swimming-pool" placeholder="1 BKH">
+              </div>
+              <div class="form-group">
+                <label for="property-size">Property Size</label>
+                <input type="property-size" class="form-control w-50" id="property-size" placeholder="1 BKH">
+              </div>
+              <div class="form-group">
+                <label for="bathroom">Bathroom</label>
+                <input type="bathroom" class="form-control w-50" id="bathroom" placeholder="1 BKH">
+              </div>
+              <div class="form-group">
+                <label for="floor">Floor</label>
+                <input type="floor" class="form-control w-50" id="floor" placeholder="1 BKH">
+              </div>
+              <div class="form-group">
+                <label for="total-floor">Total Floor</label>
+                <input type="total-floor" class="form-control w-50" id="total-floor" placeholder="1 BKH">
+              </div>
+              <div class="form-group">
+                <label for="location">Location</label>
+                <input type="location" class="form-control w-50" id="location" placeholder="1 BKH">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 {% endblock content %}

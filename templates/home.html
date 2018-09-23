@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block content %}
+    <section class="section-1 one-view">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-12 col-sm-6">
+            <div class="section-1-detail">
+              <div class="section-1-head">
+                <h1>NOBROKER</h1>
+              </div>
+              <div class="section-1-desc">
+                <span>
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </span>
+              </div>
+              <div class="redirect-button">
+                <button class="btn btn-lg bg-success">Try our Predictor</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="section-1-img">
+              <img src="{{url_for('static', filename='homepage_img.png')}}" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+{% endblock content %}
